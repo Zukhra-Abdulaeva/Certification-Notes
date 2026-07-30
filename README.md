@@ -10,9 +10,16 @@
   <img src="https://img.shields.io/badge/Portfolio-IT_Certifications-blueviolet">
 </p>
 
-![Daily Updates](https://img.shields.io/badge/Updates-Daily-success)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Portfolio](https://img.shields.io/badge/Portfolio-IT_Certifications-blueviolet)
+[![Linux](https://img.shields.io/badge/Linux-Notes-blue?logo=linux)](Linux/notes.md)
+![CCNA](https://img.shields.io/badge/CCNA-Networking-orange?logo=cisco)
+![AWS CP](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?logo=amazonaws)
+![SAA](https://img.shields.io/badge/AWS-SAA-FF9900?logo=amazonaws)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform)
+![CKA](https://img.shields.io/badge/Kubernetes-CKA-326CE5?logo=kubernetes)
+![Security+](https://img.shields.io/badge/CompTIA-Security+-002D74?logo=comptia)
+![AI Practitioner](https://img.shields.io/badge/AI-Practitioner-0A0A0A?logo=openai)
+![ML Engineer](https://img.shields.io/badge/ML-Engineer-0A0A0A?logo=tensorflow)
+
 
 
 📘 Certification Notes
