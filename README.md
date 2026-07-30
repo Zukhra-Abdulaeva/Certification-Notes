@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/logo.svg" width="180" alt="Certification Notes Logo">
+</p>
 # Certification-Notes
 
 📘 Certification Notes
