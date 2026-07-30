@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Portfolio-IT_Certifications-blueviolet">
 </p>
 
-[![Linux](https://img.shields.io/badge/Linux-Notes-blue?logo=linux)](Linux/notes.md)
+[![Linux](https://img.shields.io/badge/Linux-Notes-blue?logo=linux)](Linux/linux_notes.md)
 ![CCNA](https://img.shields.io/badge/CCNA-Networking-orange?logo=cisco)
 ![AWS CP](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?logo=amazonaws)
 ![SAA](https://img.shields.io/badge/AWS-SAA-FF9900?logo=amazonaws)
