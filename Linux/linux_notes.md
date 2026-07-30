@@ -1,4 +1,4 @@
-# 📘 Zertifizierung: Linux
+# 📘 Certification: Linux
 
 ✅ CompTIA IT Fundamentals (optional)
 ✅ Linux Essentials (LPI)
@@ -18,23 +18,23 @@
 ---
 
 ## ❓ Exam Questions
-### Frage 1:
-**Antwort:**  
-**Erklärung:**  
 
-### Frage 2:
-**Antwort:**  
-**Erklärung:**  
+### Question 1:
+**Answer:**
+**Explanation:**
 
-### Frage 3:
-**Antwort:**  
-**Erklärung:**  
+### Question 2:
+**Answer:**
+**Explanation:**
 
+### Question 3:
+**Answer:**
+**Explanation:**
 ---
 
 ## 🔧 Practical Task
-**Beschreibung:**  
-**Schritte:**  
+**Description:**
+**Steps:** 
 -  
 -  
 -  
