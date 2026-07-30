@@ -1,0 +1,13 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" rx="20" fill="#0d1117"/>
+  <text x="50%" y="42%" fill="#58a6ff" font-size="42" font-family="Arial" font-weight="bold" text-anchor="middle">
+    CERT
+  </text>
+  <text x="50%" y="62%" fill="#c9d1d9" font-size="28" font-family="Arial" text-anchor="middle">
+    NOTES
+  </text>
+  <circle cx="150" cy="240" r="28" fill="#238636"/>
+  <text x="150" y="247" fill="white" font-size="22" font-family="Arial" text-anchor="middle">
+    ✔
+  </text>
+</svg>
