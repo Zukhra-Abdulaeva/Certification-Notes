@@ -54,14 +54,14 @@ So entsteht ein lebendiges Portfolio, das zeigt, wie ich denke, lerne und Proble
     └── notes.md
 
 Every notes.md file contains:
-📝 1. Daily Notes: Short, concise learning points on concepts, tools and best practices.
-❓ 2. Exam Questions: Typical exam questions with answers and explanations.
-🔧 3. Practical Tasks: Hands-on exercises, labs, CLI commands, cloud set-ups, network configurations, etc.
-📊 4. Diagrams: Architecture sketches, network diagrams, cloud flows, Kubernetes topologies.
+- 📝 1. Daily Notes: Short, concise learning points on concepts, tools and best practices.
+- ❓ 2. Exam Questions: Typical exam questions with answers and explanations.
+- 🔧 3. Practical Tasks: Hands-on exercises, labs, CLI commands, cloud set-ups, network configurations, etc.
+- 📊 4. Diagrams: Architecture sketches, network diagrams, cloud flows, Kubernetes topologies.
 
 
 Jede notes.md-Datei enthält:
-📝 1. Daily Notes: Kurze, präzise Lernpunkte zu Konzepten, Tools und Best Practices.
-❓ 2. Exam Questions: Typische Prüfungsfragen mit Antwort und Erklärung.
-🔧 3. Praktische Aufgabe: Hands-on-Übungen, Labs, CLI-Befehle, Cloud-Setups, Netzwerk-Konfigurationen usw.
-📊 4. Diagramme: Architektur-Skizzen, Netzwerkdiagramme, Cloud-Flows, Kubernetes-Topologien.
+- 📝 1. Daily Notes: Kurze, präzise Lernpunkte zu Konzepten, Tools und Best Practices.
+- ❓ 2. Exam Questions: Typische Prüfungsfragen mit Antwort und Erklärung.
+- 🔧 3. Praktische Aufgabe: Hands-on-Übungen, Labs, CLI-Befehle, Cloud-Setups, Netzwerk-Konfigurationen usw.
+- 📊 4. Diagramme: Architektur-Skizzen, Netzwerkdiagramme, Cloud-Flows, Kubernetes-Topologien.
