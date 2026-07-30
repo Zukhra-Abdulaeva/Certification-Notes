@@ -1,8 +1,8 @@
 # Certification-Notes
 
 📘 Certification Notes
-A centralised knowledge portfolio for my IT certification preparation.
-It is updated daily and is structured, consistent and immediately visible to recruiters.
+- A centralised knowledge portfolio for my IT certification preparation.
+- It is updated daily and is structured, consistent and immediately visible to recruiters.
 
 🎯 Aim of the project: This repository serves as an ongoing learning archive for various IT certifications.
 Every day, I add the following to each category:
@@ -13,8 +13,8 @@ Every day, I add the following to each category:
 This creates a dynamic portfolio that shows how I think, learn and solve problems – something recruiters love.
 
 📘 Certification Notes
-Ein zentralisiertes Wissens-Portfolio für meine IT-Zertifizierungsvorbereitung.
-Es wird täglich erweitert und ist strukturiert, konsistent und für Recruiter sofort sichtbar.
+- Ein zentralisiertes Wissens-Portfolio für meine IT-Zertifizierungsvorbereitung.
+- Es wird täglich erweitert und ist strukturiert, konsistent und für Recruiter sofort sichtbar.
 
 🎯 Ziel des Projekts: Dieses Repository dient als laufendes Lernarchiv für verschiedene IT-Zertifizierungen.
 Jeden Tag ergänze ich jede Kategorie um:
