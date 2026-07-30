@@ -1,6 +1,9 @@
 # 📘 Zertifizierung: {{TITLE}}
 ✅ CompTIA IT Fundamentals (optional)
-✅ Linux Essentials (LPI
+✅ Linux Essentials (LPI)
+✅ LFCS – Linux Foundation Certified System Administrator
+✅ Red Hat: RHCSA
+
 
 ---
 
