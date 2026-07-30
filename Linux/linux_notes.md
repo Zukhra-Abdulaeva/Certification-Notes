@@ -1,4 +1,5 @@
-# 📘 Zertifizierung: {{TITLE}}
+# 📘 Zertifizierung: Linux
+
 ✅ CompTIA IT Fundamentals (optional)
 ✅ Linux Essentials (LPI)
 ✅ LFCS – Linux Foundation Certified System Administrator
