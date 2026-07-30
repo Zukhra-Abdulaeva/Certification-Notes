@@ -1,7 +1,8 @@
-<p align="center">
-  <img src="assets/logo.svg" width="180" alt="Certification Notes Logo">
-</p>
 # Certification-Notes
+<p align="center">
+  <img src="00_assets/logo.svg" width="180" alt="Certification Notes Logo">
+</p>
+
 
 📘 Certification Notes
 - A centralised knowledge portfolio for my IT certification preparation.
