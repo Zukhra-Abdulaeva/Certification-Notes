@@ -10,6 +10,11 @@
   <img src="https://img.shields.io/badge/Portfolio-IT_Certifications-blueviolet">
 </p>
 
+![Daily Updates](https://img.shields.io/badge/Updates-Daily-success)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Portfolio](https://img.shields.io/badge/Portfolio-IT_Certifications-blueviolet)
+
+
 📘 Certification Notes
 - A centralised knowledge portfolio for my IT certification preparation.
 - It is updated daily and is structured, consistent and immediately visible to recruiters.
