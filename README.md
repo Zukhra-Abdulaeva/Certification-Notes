@@ -3,6 +3,12 @@
   <img src="00_assets/logo.svg" width="120" alt="Certification Notes Logo">
 </p>
 
+<h1 align="center">Certification Notes</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Updates-Daily-success">
+  <img src="https://img.shields.io/badge/Portfolio-IT_Certifications-blueviolet">
+</p>
 
 📘 Certification Notes
 - A centralised knowledge portfolio for my IT certification preparation.
