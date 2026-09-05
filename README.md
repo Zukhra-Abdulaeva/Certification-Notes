@@ -76,24 +76,51 @@ Certification-Notes/
 │   ├── logo.svg
 │   └── ...
 │
-├── 01-Linux-Essentials/
+├── 00-Linux-Essentials/
+│   │
+│   ├── 1-Linux-and-Open-Source/
+│   │   ├── 1.1-Linux-Evolution-and-Distributions/
+│   │   ├── 1.2-Major-Open-Source-Applications/
+│   │   ├── 1.3-Open-Source-Software-and-Licensing/
+│   │   └── 1.4-ICT-Skills-and-Working-with-Linux/
+│   │
+│   ├── 2-Finding-My-Way-on-Linux/
+│   │   ├── 2.1-Command-Line-Basics/
+│   │   ├── 2.2-Getting-Help/
+│   │   ├── 2.3-Directories-and-Files/
+│   │   └── 2.4-Create-Move-and-Delete/
+│   │
+│   ├── 3-Power-of-the-Command-Line/
+│   │   ├── 3.1-Archive-Files/
+│   │   ├── 3.2-Search-and-Extract-Data/
+│   │   └── 3.3-Commands-to-Scripts/
+│   │
+│   ├── 4-Operating-System/
+│   │   ├── 4.1-Choosing-an-Operating-System/
+│   │   ├── 4.2-Hardware/
+│   │   ├── 4.3-Where-Data-is-Stored/
+│   │   └── 4.4-Computer-on-a-Network/
+│   │
+│   └── 5-Security-and-Permissions/
+│       ├── 5.1-Basic-Security-and-User-Types/
+│       ├── 5.2-Users-and-Groups/
+│       ├── 5.3-Permissions-and-Ownership/
+│       └── 5.4-Special-Directories-and-Files/
 │
-├── 02-CCNA/
+├── 01-Linux-Admin/
 │
-├── 03-AWS-Cloud-Practitioner/
+├── 02-Networking/
 │
-├── 04-AWS-Solutions-Architect-Associate/
+├── 03-Programming-and-Automation/
 │
-├── 05-Terraform-Associate/
+├── 04-AWS-Cloud/
 │
-├── 06-Certified-Kubernetes-Administrator/
+├── 05-DevOps/
 │
-├── 07-CompTIA-Security-Plus/
+├── 06-Cloud-Security/
 │
-├── 08-AWS-Certified-AI-Practitioner/
-│
-└── 09-Machine-Learning-Engineer/
-````
+└── 07-AI-Cloud-Engineering/
+```
 
 The numbered certification directories define the planned certification sequence.
 
