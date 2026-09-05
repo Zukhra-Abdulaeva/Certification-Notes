@@ -1,4 +1,5 @@
 # PHASE 0 — IT-BASIS
+## 🐧 Linux Essentials — Learning Units
 ### 30 Days = 270 Learning Units
 
 **Verbindliches Learning-Unit-Modell**

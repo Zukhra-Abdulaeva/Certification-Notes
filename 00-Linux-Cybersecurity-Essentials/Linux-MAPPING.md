@@ -1,15 +1,11 @@
-# MAPPING
+# LINUX ESSENTIALS - MAPPING
 
-## LINUX ESSENTIALS
 
 **Phase:** PHASE 0 — IT-BASIS
 **Primärziel:** Linux Essentials
 **Learning Units:** 30-TAGE-LEARNING-UNITS
 
 ---
-
-```text
-# LINUX ESSENTIALS - MAPPING
 
 ```text
 LINUX ESSENTIALS
@@ -227,5 +223,3 @@ LINUX ESSENTIALS
 | **Thema 3**          | Command Line Power, Archive, Kompression, Pipes, I/O-Redirection, `grep`, Regex, Datenverarbeitung, Shell Scripts, Variablen, Argumente, Schleifen, Exit Codes           | **Day 3, 20, 22**                                |
 | **Thema 4**          | Betriebssystem, Hardware, Kernel, Speicher, Prozesse, Dateisystem, Geräte, Logs, Netzwerk, IPv4/IPv6, DNS, Routing, Sockets, Virtualisierung                             | **Day 1–2, 6–8, 11–15, 17–19, 21–24, 26, 28–29** |
 | **Thema 5**          | Security, User, Root, Standard-/System-User, Groups, `/etc/passwd`, `/etc/group`, `/etc/shadow`, `sudo`, `su`, Permissions, `chmod`, `chown`, Special Permissions, Links | **Day 9, 16, 25, 27–28**                         |
-
----

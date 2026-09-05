@@ -76,8 +76,15 @@ Certification-Notes/
 │   ├── logo.svg
 │   └── ...
 │
-├── 00-Linux-Essentials/
+├── 00-Linux-Cybersecurity-Essentials/
 │   │
+│   ├── README.md
+│   ├── Cybersecurity-Learning-Units.md
+│   ├── Linux-Learning-Units.md
+│   ├── Cybersecurity-MAPPING.md
+│   ├── Linux-MAPPING.md
+│   └── ...
+│
 │   ├── 1-Linux-and-Open-Source/
 │   │   ├── 1.1-Linux-Evolution-and-Distributions/
 │   │   ├── 1.2-Major-Open-Source-Applications/
@@ -101,11 +108,52 @@ Certification-Notes/
 │   │   ├── 4.3-Where-Data-is-Stored/
 │   │   └── 4.4-Computer-on-a-Network/
 │   │
-│   └── 5-Security-and-Permissions/
-│       ├── 5.1-Basic-Security-and-User-Types/
-│       ├── 5.2-Users-and-Groups/
-│       ├── 5.3-Permissions-and-Ownership/
-│       └── 5.4-Special-Directories-and-Files/
+│   ├── 5-Security-and-Permissions/
+│   │   ├── 5.1-Basic-Security-and-User-Types/
+│   │   ├── 5.2-Users-and-Groups/
+│   │   ├── 5.3-Permissions-and-Ownership/
+│   │   └── 5.4-Special-Directories-and-Files/
+│   │
+│   ├── 6-Security-Concepts/
+│   │   ├── 6.1-IT-Security-Fundamentals/
+│   │   ├── 6.2-CIA-Triad/
+│   │   ├── 6.3-Security-Roles/
+│   │   ├── 6.4-Attack-Objectives/
+│   │   └── 6.5-Attribution/
+│   │
+│   ├── 7-Encryption/
+│   │   ├── 7.1-Cryptography-Fundamentals/
+│   │   ├── 7.2-Key-Management/
+│   │   ├── 7.3-PKI/
+│   │   ├── 7.4-Web-Encryption/
+│   │   ├── 7.5-Email-Encryption/
+│   │   └── 7.6-Storage-Encryption/
+│   │
+│   ├── 8-Device-and-Storage-Security/
+│   │   ├── 8.1-Hardware-Security/
+│   │   ├── 8.2-Software-Security/
+│   │   ├── 8.3-Malware/
+│   │   ├── 8.4-Malware-Protection/
+│   │   ├── 8.5-Data-Availability/
+│   │   └── 8.6-Cloud-and-Storage-Security/
+│   │
+│   ├── 9-Network-and-Service-Security/
+│   │   ├── 9.1-Network-Fundamentals/
+│   │   ├── 9.2-Internet-Infrastructure/
+│   │   ├── 9.3-Network-Attacks/
+│   │   ├── 9.4-Network-Defense/
+│   │   └── 9.5-VPN-and-Secure-Communication/
+│   │
+│   └── 10-Identity-and-Privacy/
+│       ├── 10.1-Privacy-and-Anonymity/
+│       ├── 10.2-Identity-and-Access/
+│       ├── 10.3-Password-Security/
+│       ├── 10.4-Single-Sign-On/
+│       ├── 10.5-Confidentiality/
+│       ├── 10.6-Secure-Communication/
+│       ├── 10.7-Privacy-Protection/
+│       ├── 10.8-Profiling-and-Tracking/
+│       └── 10.9-Security-Operations/
 │
 ├── 01-Linux-Admin/
 │
