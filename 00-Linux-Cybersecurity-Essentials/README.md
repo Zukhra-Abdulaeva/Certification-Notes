@@ -1,8 +1,6 @@
 # GITHUB SECURITY & LINUX PORTFOLIO
 
-This portfolio links the Linux Essentials and Security Essentials learning modules with practical Linux security skills and the resulting GitHub artefacts.
-
-It demonstrates how learning content is transformed into practical, structured security projects.
+This portfolio links the Linux Essentials and Security Essentials learning modules with practical Linux security skills and the resulting GitHub artefacts. It demonstrates how learning content is transformed into practical, structured security projects.
 
 ---
 
