@@ -48,17 +48,21 @@ The repository is updated continuously as I progress through the certification p
 
 The certifications are numbered according to the planned learning path and progression. The numbering is intentional and does not represent alphabetical ordering.
 
-| # | Certification | Focus | Status |
-|---:|---|---|---|
-| 01 | Linux Essentials | Linux and System Administration | 🟡 In Progress |
-| 02 | CCNA | Networking | ⚪ Planned |
-| 03 | AWS Cloud Practitioner | Cloud Fundamentals | ⚪ Planned |
-| 04 | AWS Solutions Architect – Associate | Cloud Architecture | ⚪ Planned |
-| 05 | Terraform Associate | Infrastructure as Code | ⚪ Planned |
-| 06 | Certified Kubernetes Administrator | Kubernetes Administration | ⚪ Planned |
-| 07 | CompTIA Security+ | Cybersecurity | ⚪ Planned |
-| 08 | AWS Certified AI Practitioner | Artificial Intelligence | ⚪ Planned |
-| 09 | Machine Learning Engineer | Machine Learning | ⚪ Planned |
+## CERTIFICATIONS
+
+|  # | Certification                       | Focus                           | Status          |
+| -: | ----------------------------------- | ------------------------------- | --------------  |
+| 01 | Linux Essentials                    | Linux and System Administration | 🟡 In Progress  |
+| 02 | Security Essentials                 | Cybersecurity Fundamentals      | 🟡 In Progress  |
+| 03 | Cisco CCNA                          | Networking                      | ⚪ Planned      |
+| 04 | AWS Cloud Practitioner              | Cloud Fundamentals              | ⚪ Planned      |
+| 05 | AWS Solutions Architect – Associate | Cloud Architecture              | ⚪ Planned      |
+| 06 | Terraform Associate                 | Infrastructure as Code          | ⚪ Planned      |
+| 07 | Certified Kubernetes Administrator  | Kubernetes Administration       | ⚪ Planned      |
+| 08 | CompTIA Security+                   | Cybersecurity                   | ⚪ Planned      |
+| 09 | AWS Security Specialty              | Cloud Security                  | ⚪ Planned      |
+| 10 | AWS Certified AI Practitioner       | Artificial Intelligence         | ⚪ Planned      |
+| 11 | AWS Machine Learning Engineer       | Machine Learning                | ⚪ Planned      |
 
 ---
 
