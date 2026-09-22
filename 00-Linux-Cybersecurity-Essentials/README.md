@@ -48,10 +48,16 @@ This portfolio links the Linux Essentials and Security Essentials learning modul
 Certification-Notes/
 │
 ├── README.md
-├── notes.md
+├── .gitignore
 │
 ├── _datasets/
 │   ├── logo.svg
+│   ├── notes_template.md
+│   └── ...
+│
+├── notes/
+│   ├── linux-essentials-notes.md
+│   ├── security-essentials-notes.md
 │   └── ...
 │
 └── 00-Linux-Cybersecurity-Essentials/

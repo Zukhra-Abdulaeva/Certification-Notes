@@ -74,10 +74,16 @@ The repository uses a consistent structure for the certification path.
 Certification-Notes/
 │
 ├── README.md
-├── notes.md
+├── .gitignore
 │
 ├── _datasets/
 │   ├── logo.svg
+│   ├── notes_template.md
+│   └── ...
+│
+├── notes/
+│   ├── linux-essentials-notes.md
+│   ├── security-essentials-notes.md
 │   └── ...
 │
 ├── 00-Linux-Cybersecurity-Essentials/
