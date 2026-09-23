@@ -1,112 +1,119 @@
-# Development Environment
+# 🛠️ Development Environment
 
-## Purpose
+This project is developed on **Windows** using **WSL2 with Ubuntu** as the Linux development environment.
 
-This document defines the reproducible development environment for the
-`Certification-Notes` repository.
-
-The repository is developed primarily in an Ubuntu environment running
-through WSL2 on Windows.
-
-The goal is to ensure that the Python environment can be recreated after
-cloning the repository without committing the local virtual environment.
-
+The following steps show how to prepare the project after cloning the repository.
 ---
 
-## Environment Architecture
+## 1. 🪟 Open Ubuntu through WSL2
 
-```text
-Windows
-  │
-  └── WSL2
-       │
-       └── Ubuntu
-            │
-            └── /home/zukhra/GitHub_Certification-Notes/Certification-Notes
-                 │
-                 ├── .venv/              # local only
-                 ├── requirements.txt
-                 ├── .python-version
-                 └── project files
+Open **PowerShell** on Windows and start Ubuntu:
+
+```powershell
+wsl -d Ubuntu
 ```
 
----
+You should now be inside the Ubuntu environment.
 
-## Base Environment
-
-| Component           | Requirement           |
-| ------------------- | --------------------- |
-| Operating system    | Ubuntu on WSL2        |
-| Python              | 3.12.3                |
-| Virtual environment | Python `venv`         |
-| Editor              | Visual Studio Code    |
-| Git                 | Git                   |
-| Repository          | `Certification-Notes` |
-
-The Python version is documented in `.python-version`.
-
----
-
-## Repository Location
-
-Linux/WSL working copy:
-
-```text
-/home/zukhra/GitHub_Certification-Notes/Certification-Notes
-```
-
-The repository should preferably be located inside the Linux filesystem
-rather than under `/mnt/c/` for Linux-focused development work.
-
----
-
-# Environment Setup After Clone
-
-## 1. Clone the repository
+Check the current location:
 
 ```bash
-git clone https://github.com/Zukhra-Abdulaeva/Certification-Notes.git
-cd Certification-Notes
+pwd
 ```
 
----
-
-## 2. Verify Python
+If necessary, move to the Linux home directory:
 
 ```bash
-python3 --version
+cd ~
 ```
-
-Expected version:
-
-```text
-Python 3.12.3
-```
-
-If the required Python version is not available, do not continue with the
-project environment until the Python installation has been reviewed.
 
 ---
 
-## 3. Create the virtual environment
+## 2. 📁 Create a Project Directory
+
+Create a directory for the GitHub projects:
+
+```bash
+mkdir -p ~/GitHub_Projects
+```
+
+Move into it:
+
+```bash
+cd ~/GitHub_Projects
+```
+
+---
+
+## 3. 📥 Clone the Repository
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<OWNER>/<REPOSITORY>.git
+```
+
+Enter the repository:
+
+```bash
+cd <REPOSITORY>
+```
+
+Verify the configured remote:
+
+```bash
+git remote -v
+```
+
+The `origin` remote should point to the project's GitHub repository.
+
+---
+
+## 4. 💻 Open the Project in VS Code
+
+From the repository directory:
+
+```bash
+code .
+```
+
+VS Code should open the project using the **WSL: Ubuntu** environment.
+
+---
+
+## 5. 🐍 Create the Python Virtual Environment
+
+Inside the repository, create the local Python environment:
 
 ```bash
 python3 -m venv .venv
 ```
 
-This creates a local Python virtual environment.
+The environment is created inside:
 
-The `.venv/` directory must not be committed to Git.
+```text
+.venv/
+```
+
+The virtual environment is local and must not be committed to Git.
+
+You can verify that the environment was created:
+
+```bash
+ls -l .venv/bin/python .venv/bin/activate
+```
 
 ---
 
-## 4. Activate the virtual environment
+## 6. ▶️ Activate the Virtual Environment
+
+Activate the environment:
 
 ```bash
 source .venv/bin/activate
 ```
 
-After activation, the shell should show:
+The terminal should now show:
 
 ```text
 (.venv)
@@ -114,23 +121,21 @@ After activation, the shell should show:
 
 ---
 
-## 5. Verify the Python executable
+## 7. 🔍 Verify Python
+
+Check which Python executable is being used:
 
 ```bash
 which python
 ```
 
-Expected pattern:
+The path should point into the project environment:
 
 ```text
-.../Certification-Notes/.venv/bin/python
+.../<REPOSITORY>/.venv/bin/python
 ```
 
-The exact username and absolute path may differ on another machine.
-
----
-
-## 6. Verify Python version
+Check the Python version:
 
 ```bash
 python --version
@@ -144,17 +149,7 @@ Python 3.12.3
 
 ---
 
-## 7. Upgrade pip
-
-Only perform this when package installation is required:
-
-```bash
-python -m pip install --upgrade pip
-```
-
----
-
-## 8. Install project dependencies
+## 8. 📦 Install Dependencies
 
 Install the dependencies defined by the repository:
 
@@ -162,16 +157,13 @@ Install the dependencies defined by the repository:
 python -m pip install -r requirements.txt
 ```
 
-At the current stage, `requirements.txt` intentionally contains no
-third-party dependencies because the Linux system analysis primarily uses
-standard Linux diagnostic tools and Python's standard library.
+At the current stage, `requirements.txt` contains no third-party dependencies. The project primarily uses Linux system tools and Python's standard library.
 
-If project dependencies are added later, they must be documented in
-`requirements.txt`.
+If dependencies are added later, they should be recorded in `requirements.txt`.
 
 ---
 
-# Environment Verification
+## 9. ✅ Verify the Environment
 
 After setup, run:
 
@@ -182,78 +174,41 @@ python -m pip --version
 git status
 ```
 
-The expected state is:
-
-```text
-Python 3.12.3
-```
-
-and the Python executable should point into:
+The Python executable should point to:
 
 ```text
 .venv/bin/python
 ```
 
-The Git working tree should remain clean unless the setup process created
-intentional local changes.
-
----
-
-# VS Code / WSL
-
-The project should be opened from the Ubuntu environment:
-
-```bash
-code .
-```
-
-VS Code should indicate:
+The Python version should be:
 
 ```text
-WSL: Ubuntu
-```
-
-The integrated terminal should show the activated environment:
-
-```text
-(.venv)
+Python 3.12.3
 ```
 
 ---
 
-# Activation for Future Sessions
+## 🔄 Future Sessions
 
-After opening a new Ubuntu terminal, activate the existing environment:
+After opening a new Ubuntu/WSL terminal, navigate to the repository and activate the existing environment:
 
 ```bash
-cd ~/GitHub_Certification-Notes/Certification-Notes
+cd ~/GitHub_Projects/<REPOSITORY>
 source .venv/bin/activate
 ```
 
-Verify:
+Then verify:
 
 ```bash
-which python
 python --version
+which python
 ```
 
 ---
 
-# Deactivation
+## ♻️ Recreate the Environment
 
-When the virtual environment is no longer required:
-
-```bash
-deactivate
-```
-
-This does not delete the environment.
-
----
-
-# Recreating the Environment
-
-If the local `.venv` does not exist after cloning:
+If the `.venv` directory does not exist, recreate it:
 
 ```bash
 python3 -m venv .venv
@@ -261,65 +216,17 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Then verify:
-
-```bash
-which python
-python --version
-python -m pip --version
-```
+The project environment is intentionally **not version-controlled**. The repository contains the files required to recreate it.
 
 ---
 
-# Dependency Management
+## 🔐 Security
 
-Python dependencies must be added to:
-
-```text
-requirements.txt
-```
-
-Do not commit the `.venv/` directory.
-
-When a new dependency is intentionally introduced, document the reason
-and update `requirements.txt`.
-
----
-
-# Security Considerations
-
-The virtual environment is local and must not contain:
+Do not commit sensitive information such as:
 
 * passwords
 * API keys
-* private certificates
-* SSH private keys
 * authentication tokens
+* private keys or certificates
 * production credentials
 * other secrets
-
-Secrets must never be committed to the repository.
-
----
-
-# Reproducibility Status
-
-| Item                      | Status     |
-| ------------------------- | ---------- |
-| Ubuntu/WSL environment    | Configured |
-| Repository cloned         | Configured |
-| Python 3.12.3             | Verified   |
-| `.venv`                   | Created    |
-| `.venv` activation        | Verified   |
-| `.gitignore`              | Configured |
-| `requirements.txt`        | Created    |
-| Environment documentation | Documented |
-
----
-
-# Notes
-
-The virtual environment itself is intentionally not version-controlled.
-
-The repository stores the information required to recreate the environment,
-rather than the environment itself.
