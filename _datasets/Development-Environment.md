@@ -646,7 +646,7 @@ When the project uses path-sensitive tooling, document the expected path format 
 
 ---
 
-## 17. 🐧 WSL Environment
+## 17. WSL Environment
 
 This section applies only when Windows Subsystem for Linux is used.
 
@@ -667,7 +667,7 @@ Windows-mounted paths and Linux-native paths should not be treated as interchang
 
 ---
 
-## 18. 📦 Containers and Virtual Machines
+## 18. Containers and Virtual Machines
 
 If the project uses containers or virtual machines, document them separately from the host operating system.
 
@@ -696,7 +696,7 @@ Only include this section when applicable.
 
 ---
 
-## 19. 🔍 Environment Verification
+## 19. Environment Verification
 
 Environment verification confirms that the configured environment corresponds to the documented requirements.
 
@@ -730,7 +730,7 @@ A command documented in this file is not evidence that the command was executed.
 
 ---
 
-## 20. 📊 Environment Verification Matrix
+## 20. Environment Verification Matrix
 
 Separate requirements from observed values.
 
@@ -757,7 +757,7 @@ Not yet verified
 
 ---
 
-## 21. 🧭 Reproducibility
+## 21. Reproducibility
 
 A reproducible environment should allow another developer to reconstruct the required setup.
 
@@ -785,7 +785,7 @@ Document the required steps in the order in which they must be performed.
 
 ---
 
-## 22. 🚀 Environment Setup
+## 22. Environment Setup
 
 Project-specific setup instructions should follow a logical sequence:
 
@@ -805,7 +805,7 @@ Replace generic steps with project-specific commands when the actual project is 
 
 ---
 
-## 23. ♻️ Environment Recreation
+## 23. Environment Recreation
 
 When an environment needs to be recreated, use the project's documented setup procedure.
 
@@ -829,7 +829,7 @@ Environment recreation should remain within the scope necessary for the project.
 
 ---
 
-## 24. 🔐 Security
+## 24. Security
 
 The development environment should follow basic security principles:
 
@@ -859,7 +859,7 @@ Secrets should not be stored in source files, documentation, or Git history.
 
 ---
 
-## 25. 🧪 Evidence
+## 25. Evidence
 
 Environment claims should be supported by evidence where verification matters.
 
@@ -891,7 +891,7 @@ Example values must remain clearly identifiable as examples.
 
 ---
 
-## 26. 📋 Environment Status
+## 26. Environment Status
 
 Use factual status reporting:
 
@@ -910,7 +910,7 @@ The status must reflect the actual project state.
 
 ---
 
-## 27. ⚠️ Known Limitations
+## 27. Known Limitations
 
 Document environment-specific limitations when they affect development or reproducibility.
 
@@ -932,7 +932,7 @@ Do not use limitations to make unsupported assumptions about the environment.
 
 ---
 
-## 28. 🔄 Change Management
+## 28. Change Management
 
 Changes to the development environment should be reflected in the documentation when they affect reproducibility.
 
@@ -969,7 +969,7 @@ Only commit changes that have been reviewed.
 
 ---
 
-## 29. 📌 Reproducibility Checklist
+## 29. Reproducibility Checklist
 
 Before considering the environment sufficiently documented:
 
@@ -993,7 +993,7 @@ Before considering the environment sufficiently documented:
 
 ---
 
-## 30. 📈 Environment Documentation Status
+## 30. Environment Documentation Status
 
 Use this section to summarize the current documentation state.
 
@@ -1011,7 +1011,7 @@ The status must reflect the actual project state.
 
 ---
 
-## 31. 🛠️ Maintenance
+## 31. Maintenance
 
 Update this document when changes affect the development environment, including:
 
@@ -1028,7 +1028,7 @@ Do not update the document for changes that have no effect on the documented env
 
 ---
 
-## 32. 🧠 Environment Reproducibility Model
+## 32. Environment Reproducibility Model
 
 The complete environment can be represented as:
 
@@ -1058,7 +1058,7 @@ The purpose of this model is to make each relevant layer identifiable and reprod
 
 ---
 
-## 33. 🏁 Completion Criteria
+## 33. Completion Criteria
 
 The environment documentation is complete when:
 
@@ -1080,7 +1080,7 @@ Completion should be based on **evidence**, not assumptions.
 
 ---
 
-## 34. 📎 Adaptation Rule
+## 34. Adaptation Rule
 
 This document is a **template**, not a fixed project specification.
 
@@ -1101,16 +1101,11 @@ The final environment documentation should describe the **actual development env
 
 ---
 
-## 🧾 Final Principle
+## Final Principle
 
 > **Keep the environment simple, reproducible, secure, and verifiable.**
->
 > **Document requirements separately from observations.**
->
 > **Use placeholders for user-specific information.**
->
 > **Keep secrets outside documentation and source control.**
->
 > **Record evidence for verified environment states.**
->
 > **Update the documentation when environment changes affect reproducibility.**
