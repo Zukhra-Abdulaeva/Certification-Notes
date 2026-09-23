@@ -1104,8 +1104,14 @@ The final environment documentation should describe the **actual development env
 ## Final Principle
 
 > **Keep the environment simple, reproducible, secure, and verifiable.**
+>
 > **Document requirements separately from observations.**
+>
 > **Use placeholders for user-specific information.**
+>
 > **Keep secrets outside documentation and source control.**
+>
 > **Record evidence for verified environment states.**
+>
 > **Update the documentation when environment changes affect reproducibility.**
+>
